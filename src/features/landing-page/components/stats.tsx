@@ -25,7 +25,7 @@ const Stats = () => {
             <NumberTicker
               value={value}
             //   duration={duration} // Pass optional duration if provided
-              className="text-4xl font-bold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent"
+              className="text-4xl font-bold text-gradient bg-gradient-to-r from-orange-400 to-blue-500 bg-clip-text text-transparent"
             />
             <p className="mt-2 text-lg font-medium text-neutral-300">{label}</p>
           </div>

@@ -11,7 +11,7 @@ export default {
   			'custom-gradient': 'radial-gradient(ellipse 70% 70% at 50% -32%, rgba(117, 116, 167, 0.5), rgba(112, 123, 156, 0))'
   		},
   		colors: {
-  			'custom-green': '#23b61e',
+  			'custom-orange': '#F36A3D',
   			'color-1': 'hsl(var(--color-1))',
   			'color-2': 'hsl(var(--color-2))',
   			'color-3': 'hsl(var(--color-3))',

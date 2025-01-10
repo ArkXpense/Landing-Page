@@ -9,7 +9,7 @@ const features = [
     description: "Engage with 1.2M+ active players worldwide.",
     href: "/players",
     cta: "View stats",
-    background: <div className="absolute inset-0 bg-green-400/10 blur-lg" />,
+    background: <div className="absolute inset-0 bg-orange-400/10 blur-lg" />,
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
   },
   {

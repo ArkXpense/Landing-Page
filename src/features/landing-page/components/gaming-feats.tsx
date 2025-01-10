@@ -13,22 +13,22 @@ export default function GamingFeats() {
       {/* Metrics Grid */}
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
         <MetricCard
-          icon={<Users className="h-8 w-8 text-green-400" />}
+          icon={<Users className="h-8 w-8 text-orange-400" />}
           title="Active Players"
           value="1.2M+"
         />
         <MetricCard
-          icon={<Gamepad2 className="h-8 w-8 text-green-400" />}
+          icon={<Gamepad2 className="h-8 w-8 text-orange-400" />}
           title="Available Games"
           value="500+"
         />
         <MetricCard
-          icon={<Trophy className="h-8 w-8 text-green-400" />}
+          icon={<Trophy className="h-8 w-8 text-orange-400" />}
           title="Weekly Tournaments"
           value="50+"
         />
         <MetricCard
-          icon={<Clock className="h-8 w-8 text-green-400" />}
+          icon={<Clock className="h-8 w-8 text-orange-400" />}
           title="Playtime"
           value="10M+ hours"
         />

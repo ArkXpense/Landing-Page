@@ -78,9 +78,9 @@ const NavBarComponent = () => {
             {navItems.map(({ title, url }) => (
               <li key={title}>
                 <Link
-                  className={`relative hover:text-[#23b61e] block px-2 py-2 transition-colors duration-300 ${
+                  className={`relative hover:text-custom-orange block px-2 py-2 transition-colors duration-300 ${
                     activeSection === url.slice(1)
-                      ? "text-[#23b61e]"
+                      ? "text-custom-orange"
                       : "text-gray-200"
                   }`}
                   to={url}

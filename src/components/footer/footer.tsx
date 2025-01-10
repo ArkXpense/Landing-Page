@@ -19,12 +19,12 @@ export default function Footer() {
 
         {/* Links Section */}
         <div className="max-w-xs">
-          <h3 className="text-custom-green font-bold mb-4">Links</h3>
+          <h3 className="text-custom-orange font-bold mb-4">Links</h3>
           <ul className="space-y-2">
             <li>
               <Link
                 to="#explore"
-                className="text-sm text-white hover:text-custom-green"
+                className="text-sm text-white hover:text-custom-orange"
               >
                 Explore events
               </Link>
@@ -32,7 +32,7 @@ export default function Footer() {
             <li>
               <Link
                 to="#contact"
-                className="text-sm text-white hover:text-custom-green"
+                className="text-sm text-white hover:text-custom-orange"
               >
                 Contact us
               </Link>
@@ -40,7 +40,7 @@ export default function Footer() {
             <li>
               <Link
                 to="#terms"
-                className="text-sm text-white hover:text-custom-green"
+                className="text-sm text-white hover:text-custom-orange"
               >
                 Terms and conditions
               </Link>
@@ -48,7 +48,7 @@ export default function Footer() {
             <li>
               <Link
                 to="#privacy"
-                className="text-sm text-white hover:text-custom-green"
+                className="text-sm text-white hover:text-custom-orange"
               >
                 Privacy Policy
               </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
 
         {/* Contact Section */}
         <div className="max-w-xs">
-          <h3 className="text-custom-green font-bold mb-4">Contact</h3>
+          <h3 className="text-custom-orange font-bold mb-4">Contact</h3>
           <Link to="mailto:starkgens@gmail.com">
             <p className="text-sm text-white">starkgens@gmail.com</p>
           </Link>

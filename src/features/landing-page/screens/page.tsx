@@ -1,4 +1,4 @@
-import { Hero, BentoGrid, Stats, Marquee, GamingFeats } from "@/features/landing-page/"
+import { Hero, BentoGrid, Marquee } from "@/features/landing-page/"
 import ShineBorder from "../components/shine-border"
 import { AnimatedNavBarList } from "../components/animated-list"
 
@@ -13,8 +13,7 @@ export default function Page() {
                         <AnimatedNavBarList />
                     </ShineBorder>
                 </section>
-                <BentoGrid/>
-                {/* <GamingFeats/> */}
+                <BentoGrid/> 
                 <Marquee/>
             </main>
         </>

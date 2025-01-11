@@ -1,5 +1,5 @@
 import { Hero, BentoGrid, Marquee } from "@/features/landing-page/"
-import ShineBorder from "../components/shine-border"
+import ShimmerButton from "../../../components/ui/shimmer-button"
 import { AnimatedNavBarList } from "../components/animated-list"
 
 export default function Page() {
@@ -8,10 +8,9 @@ export default function Page() {
             <main className="flex flex-col items-center justify-center gap-4 mt-[5rem]">
                 <Hero />
                 <section className="p-24 w-[90%]">
-                    <ShineBorder className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-transparent md:shadow-xl"
-                        color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}>
+                    <ShimmerButton className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-transparent md:shadow-xl">
                         <AnimatedNavBarList />
-                    </ShineBorder>
+                    </ShimmerButton>
                 </section>
                 <BentoGrid/> 
                 <Marquee/>

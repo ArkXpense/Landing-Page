@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { RainbowButton } from "@/components/ui/rainbow-button";
+import ShimmerButton from "../../../components/ui/shimmer-button";
 
 export default function Hero() {
   return (

@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import { GitHub, Twitter } from "@/assets/icons/";
-import StarkGensLogo from "@/assets/starkgens-logos/starkgens-bg-dark.svg";
-
+import ArkXpence from "../../assets/ArkXpence.svg"
 
 export default function Footer() {
   return (
     <footer className="p-16">
       <section className="w-full px-14 border border-gray-500 rounded-2xl p-4 flex flex-col md:flex-row justify-between items-start text-gray-400 py-8 gap-8">
         <div className="max-w-sm">
-          <img src={StarkGensLogo} alt="Logo" className="w-[14rem]" />
+          <img src={ArkXpence} alt="Logo" className="w-[14rem]" />
           <p className="text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
             deleniti quaerat ipsa esse voluptates delectus itaque omnis saepe

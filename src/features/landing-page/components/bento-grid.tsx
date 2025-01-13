@@ -46,7 +46,7 @@ export default function GamingFeatsGrid() {
     <section className="mt-16 px-4 md:px-8 lg:px-16">
       {/* Title */}
       <h2 className="text-center text-3xl font-bold text-white mb-8">
-        Gaming Achievements at StarkGens
+        Achievements at ArkXpense
       </h2>
 
       {/* Bento Grid */}

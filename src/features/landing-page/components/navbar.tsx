@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from 'lucide-react';
 import { Link } from "react-router-dom";
-import ArkXpense from "../../../assets/ArkXpence.svg";
+import ArkXpense from '../../../../public/ArkXpence.svg'
 
 const navItems = [
   { title: "Hero", url: "#hero" },

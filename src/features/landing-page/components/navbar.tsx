@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from 'lucide-react';
 import { Link } from "react-router-dom";
-import StarkGensLogo from "@/assets/starkgens-logos/starkgens-bg-dark.svg";
+import ArkXpense from "../../../assets/ArkXpence.svg";
 
 const navItems = [
   { title: "Hero", url: "/modules" },
@@ -61,7 +61,7 @@ const NavBarComponent = () => {
       >
         <Link to="/">
           <img
-            src={StarkGensLogo}
+            src={ArkXpense}
             alt="StarkGens Logo"
             className={`mr-6 cursor-pointer transition-all duration-200 ${
               isScrolled ? "h-[3.5rem] ml-2 mt-[3.5px]" : "md:h-[6rem] h-[3rem]"

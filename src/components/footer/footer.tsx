@@ -58,8 +58,8 @@ export default function Footer() {
         {/* Contact Section */}
         <div className="max-w-xs">
           <h3 className="text-custom-orange font-bold mb-4">Contact</h3>
-          <Link to="mailto:starkgens@gmail.com">
-            <p className="text-sm text-white">starkgens@gmail.com</p>
+          <Link to="mailto:arkxpense@gmail.com">
+            <p className="text-sm text-white">arkxpense@gmail.com</p>
           </Link>
           <div className="flex space-x-4 mt-4">
             <Link

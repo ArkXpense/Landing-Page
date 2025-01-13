@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ArkXpense from "../../../assets/ArkXpence.svg";
 
 const navItems = [
-  { title: "Hero", url: "/modules" },
+  { title: "Hero", url: "#hero" },
   { title: "Features", url: "/opinions" },
   { title: "Games", url: "/events" },
   { title: "Testimonials", url: "/docs" },
@@ -59,7 +59,7 @@ const NavBarComponent = () => {
                 : ""
             }`}
       >
-        <Link to="/">
+        <Link to="#">
           <img
             src={ArkXpense}
             alt="StarkGens Logo"

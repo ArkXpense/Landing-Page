@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { GitHub, Twitter } from "@/assets/icons/";
-import ArkXpense from '../../../public/ArkXpence.svg'
+import ArkXpense from "../../../public/ArkXpence.svg";
 
 export default function Footer() {
   return (
@@ -9,10 +9,11 @@ export default function Footer() {
         <div className="max-w-sm">
           <img src={ArkXpense} alt="Logo" className="w-[14rem]" />
           <p className="text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-            deleniti quaerat ipsa esse voluptates delectus itaque omnis saepe
-            quisquam neque sapiente sed sit hic iste atque impedit porro eaque
-            excepturi.
+            ArkXpense envisions a future where group financial management is
+            seamless, secure, and inherently trustworthy, where every
+            transaction is transparent, and every participant is empowered,
+            leading the way in decentralized finance solutions and setting new
+            standards for financial integrity
           </p>
         </div>
 

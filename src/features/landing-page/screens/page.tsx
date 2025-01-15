@@ -1,4 +1,4 @@
-import { Hero, BentoGrid, Marquee } from "@/features/landing-page/"
+import { Hero, BentoGrid, Marquee, Values } from "@/features/landing-page/"
 import ShimmerButton from "../../../components/ui/shimmer-button"
 import { AnimatedNavBarList } from "../components/animated-list"
 
@@ -12,7 +12,8 @@ export default function Page() {
                         <AnimatedNavBarList />
                     </ShimmerButton>
                 </section>
-                <BentoGrid/> 
+                {/* <BentoGrid/>  */}
+                <Values/>
                 <Marquee/>
             </main>
         </>

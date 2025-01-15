@@ -5,3 +5,4 @@ export { default as BentoGrid  } from './components/bento-grid';
 export { default as Stats } from './components/stats';
 export { default as Marquee } from "./components/marquee";
 export { default as GamingFeats } from "./components/gaming-feats";
+export { default as Values  } from "./components/values";

@@ -64,7 +64,7 @@ export default function Footer() {
           </Link>
           <div className="flex space-x-4 mt-4">
             <Link
-              to="https://twitter.com"
+              to="https://x.com/ArkXpense"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-300"
@@ -72,7 +72,7 @@ export default function Footer() {
               <Twitter className="w-6 h-6 hover:scale-125" />
             </Link>
             <Link
-              to="https://github.com"
+              to="https://github.com/ArkXpense/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-300"

@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <Link to="/register">
             <RainbowButton className="px-6 py-3 shadow-2xl">
-              <Link to="app.arkxpense.com">
+              <Link to="https://app.arkxpense.com">
                 <span className="text-center text-base md:text-lg font-semibold ">
                   Start your journey with us.
                 </span>

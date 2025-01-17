@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import ArkXpense from '../../../../public/ArkXpence.svg'
 
 const navItems = [
-  { title: "Hero", url: "#hero" },
-  { title: "Features", url: "/opinions" },
-  { title: "Games", url: "/events" },
-  { title: "Testimonials", url: "/docs" },
-  { title: "Contact", url: "/docs" },
+  { title: "Hero", url: "/#" },
+  { title: "Features", url: "/#features" },
+  { title: "Values", url: "/#values" },
+  { title: "Testimonials", url: "/#testimonials" },
+  { title: "Contact", url: "/#contact" },
 ];
 
 const NavBarComponent = () => {

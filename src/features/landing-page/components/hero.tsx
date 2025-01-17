@@ -3,7 +3,7 @@ import { RainbowButton } from "@/components/ui/rainbow-button";
 
 export default function Hero() {
   return (
-    <section id="#hero" className="flex min-h-3/4 flex-col items-center md:items-stretch md:flex-row w-full justify-evenly">
+    <section id="#" className="flex min-h-3/4 flex-col items-center md:items-stretch md:flex-row w-full justify-evenly">
       <div className="flex w-full md:w-[40%] flex-col gap-7 md:mt-32 mt-32 md:h-auto h-[300px]">
         <h1 className="text-center leading-tight font-bold bg-gradient-to-b from-[#F8F9FA] via-[#FDD5B1] to-[#F36A3D] text-transparent bg-clip-text drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
           <span className="block text-5xl md:text-5xl">With ArkXpense share </span>
@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="flex items-center justify-center">
           <Link to="/register">
             <RainbowButton className="px-6 py-3 shadow-2xl">
-              <span className="text-center text-base md:text-lg font-semibold text-white">
+              <span className="text-center text-base md:text-lg font-semibold ">
                 Start your journey with us.
               </span>
             </RainbowButton>

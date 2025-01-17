@@ -3,40 +3,40 @@ import Marquee from "@/components/ui/marquee";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    name: "Alice",
+    username: "@alice",
+    body: "ArkXpense has completely transformed how we handle group expenses. The automation is a lifesaver!",
+    img: "https://avatar.vercel.sh/alice",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Bob",
+    username: "@bob",
+    body: "The transparency in transactions is unmatched. No more confusion or disputes in our travel groups!",
+    img: "https://avatar.vercel.sh/bob",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    name: "Clara",
+    username: "@clara",
+    body: "Love how simple and intuitive the interface is. Settling debts has never been easier.",
+    img: "https://avatar.vercel.sh/clara",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    name: "David",
+    username: "@david",
+    body: "Integrating DeFi strategies is genius! My funds aren't just sitting idle anymore.",
+    img: "https://avatar.vercel.sh/david",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    name: "Emma",
+    username: "@emma",
+    body: "The Telegram bot integration is super convenient. Managing expenses directly from chat is amazing.",
+    img: "https://avatar.vercel.sh/emma",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    name: "Frank",
+    username: "@frank",
+    body: "The grant transparency feature is a game-changer for our community initiatives. Highly recommend it!",
+    img: "https://avatar.vercel.sh/frank",
   },
 ];
 
@@ -78,7 +78,7 @@ const ReviewCard = ({
 
 export default function MarqueeDemo() {
   return (
-    <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden text-white rounded-lg">
+    <div id="testimoninals" className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden text-white rounded-lg">
         <h2 className="text-4xl font-semibold text-gray-300 mb-8">What People Are Saying</h2>
       {/* Marquee Row 1 */}
       <Marquee pauseOnHover className="[--duration:20s]">
